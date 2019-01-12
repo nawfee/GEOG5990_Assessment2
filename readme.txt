@@ -1,1 +1,1 @@
-The program contains code to run a data analysis software . The source code are within a single file named, icebergtowingapp.py
+The program contains code to run a data analysis software . The source code are within a single file named, IcebergTowing_App.py. The relavant data for the data analysis are present as two text files named, White1.radar and White1.lidar
