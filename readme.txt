@@ -7,6 +7,20 @@ The total mass of the iceberg above water is calculated using, iceberg mass = vo
 Assuming only 10% of the iceberg is above water, the total volume of iceberg is calculated.
 Then the towing ability of the iceberg is assessd by setting up the condition that, if the iceberg is equal or above 36 million kg it can't be drag out in time. 
 
-
 ------------------------------------------------------------------------------------------------------------------------------------------
-###Running the model
+### Running the application
+To run the data analysis application, the IcebergTowing_App has to be open in Spyder. The 'Run' button has to be pressed to get the output in Ipython console.
+Running the app once prints the following:
+The start and end index of row and column of the radar data, to locate the iceberg.
+The images of radar and lidar data are displayed as matplotlib subplots. The iceberg and sea water is identified in it.
+The results of calculation, the total iceberg volume and mass is also printed out in the IPython console. And most importantly the result of iceberg towing ability is printed out. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+### Warnings: The IcebergTowing_App.py file, the white1.radar.txt file and the white1.lidar.txt file should be present in the same directory. Hereall the files have to be opened from the folder named: GEOG5990M_[201277909]_Assessment2 folder. 
+Otherwise the code will not run
+
+----------------------------------------------------------------------------------------------------------------------------------------
+### Licence
+The model code has been licenced using : MIT License
+
+Copyright (c) 2019 Nawfee. A text file, detailing the licence terms and conditions has been attached in the application folder.
